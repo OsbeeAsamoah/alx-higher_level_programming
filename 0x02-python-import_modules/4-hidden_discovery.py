@@ -1,7 +1,23 @@
-#!/usr/bin/python3
-import sys
+import hidden_4 as h
 
-if __name__ == '__main__':
-    args = sys.argv
-    args.pop(0)
-    print(sum(map(int, args)))
+
+
+
+
+def discover():
+
+        name = dir(h)
+
+            for i in name:
+
+                        if i[:2] != '__':
+
+                                        print("{:s}".format(i))
+
+
+
+
+
+                                        if __name__ == "__main__":
+
+                                                discover()
